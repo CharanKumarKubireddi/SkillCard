@@ -1,0 +1,81 @@
+*{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+#brand{
+    font-size: 25px;
+    font-weight: bold;
+}
+
+div .btn:hover{
+    background-color: black;
+    transition:0.3s ease-in-out 0.2s;
+}
+#submit{
+    background-color: rgb(0,0,0);
+    color: white;
+    margin-top: 10px;
+    text-align: right;
+}
+#navbar{
+    background-color: rgb(50,52,59);
+}
+.main{
+    display:flex;
+    margin-top:80px;
+    color:white;
+    background-color: rgb(50,52,59);
+}
+.form{
+    display:inline-block;
+    width:45%;
+    margin:auto;
+    border:2px solid rgb(24,26,31);
+    border-radius:10px;
+    padding:10px;
+    background-color:rgb(24,26,31);
+}
+#output{
+    display:inline-block;
+    width:45%;
+    margin:auto;
+    border-radius: 10px;
+    padding:10px;
+}
+input,textarea{
+    width:95%;
+    padding:10px 15px;
+    font-size: 12px;
+    font-weight: 200;
+    border-radius: 8px;
+    transition:0.3s;
+    outline:none;
+    border:1px solid rgb(50,52,59);
+    background-color: rgb(50,52,59);
+    color:white;
+    
+}
+label{
+    font-weight: bold;
+}
+.width{
+    width:90%;
+    margin-left: 10px;
+}
+
+.dark{
+    background-color:rgb(24,26,31) ;
+    color:white;
+    font-family:'Times New Roman', Times, serif;
+    border:2px solid rgb(24,26,31);
+    transition:1s ease-in-out 0.2s;
+}
+.light{
+    background-color:aliceblue;
+    color:rgb(24,26,31);
+    font-family: fantasy;
+    border:2px solid aliceblue;
+    transition:1s ease-in-out 0.2s;
+}
+#icon{
+    font-size: 18px;
+}
